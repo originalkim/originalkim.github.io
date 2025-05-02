@@ -23,7 +23,11 @@ script_includes:
       <p class="badge {{ page.series.color }} text-dark me-1">
         {{ page.series.title }}
       </p>
-      {% endif %}
+      {%if page.series.ep %}
+      <p class="badge {{ page.series.ep_color }} text-dark me-1">
+        EP {{ page.series.ep }}
+      </p>
+      {% endif %} {% endif %}
       <p>{{ page.title }}</p>
     </h1>
     {% if page.description %}

@@ -59,7 +59,11 @@ all_normal[i] %} {% endfor %} {% endif %}
             <p class="badge {{ post.series.color }} text-dark me-1">
               {{ post.series.title }}
             </p>
-            {% endif %}
+            {%if post.series.ep %}
+            <p class="badge {{ post.series.ep_color }} text-dark me-1">
+              EP {{ post.series.ep }}
+            </p>
+            {% endif %} {% endif %}
             <p>{{ post.title }}</p>
           </h1>
 
