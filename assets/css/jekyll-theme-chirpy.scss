@@ -7,8 +7,39 @@
 {%- endif -%}
 ';
 
-.is-collapsed {
-  max-height: none !important;
-}
+// .is-collapsed {
+//   max-height: none !important;
+// }
 
 /* append your custom style below */
+
+/* colors by notion */
+/* https://www.notionavenue.co/post/notion-color-code-hex-palette */
+
+.bg-notion-grey {
+  background-color: #f1f1ef;
+}
+.bg-notion-brown {
+  background-color: #f4eeee;
+}
+.bg-notion-orange {
+  background-color: #faebdd;
+}
+.bg-notion-yellow {
+  background-color: #fbf3db;
+}
+.bg-notion-green {
+  background-color: #edf3ec;
+}
+.bg-notion-blue {
+  background-color: #e7f3f8;
+}
+.bg-notion-purple {
+  background-color: #f6f3f9;
+}
+.bg-notion-pink {
+  background-color: #faf1f5;
+}
+.bg-notion-red {
+  background-color: #fdebec;
+}
