@@ -3,7 +3,7 @@ title: 객체 특정 타입만 걸러내기, 특정 요소 선택적 요소로 �
 description: Making filtering out specific types from an object, and specific elements optional.
 author: ky0422
 date: 2022-09-27 19:35:00 +0900
-categories: ["프로그래밍", "TypeScript"]
+categories: ["C. 프로그래밍", "TypeScript"]
 tags: ["TypeScript", "타입스크립트"]
 _tistory: https://ky0422.tistory.com/6
 archive: true

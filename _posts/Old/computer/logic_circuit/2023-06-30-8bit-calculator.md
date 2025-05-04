@@ -3,7 +3,7 @@ title: 8비트 가감산기와 7세그먼트 디스플레이로 간단한 덧셈
 description: 8bit adder/subtractor and 7-segment display calculator
 author: ky0422
 date: 2023-06-30 13:30:00 +0900
-categories: ["컴퓨터", "논리회로"]
+categories: ["B. 컴퓨터", "논리회로"]
 tags: ["컴퓨터", "논리회로", "가산기", "가감산기", "7세그먼트 디스플레이"]
 archive: true
 ---

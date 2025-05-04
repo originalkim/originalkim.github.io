@@ -3,7 +3,7 @@ title: RwLock, 그리고 Mutex의 차이점
 description: RwLock and Mutex, the difference.
 author: ky0422
 date: 2022-09-30 22:34:00 +0900
-categories: ["프로그래밍", "Rust"]
+categories: ["C. 프로그래밍", "Rust"]
 tags: ["Rust", "러스트", "RwLock", "Mutex"]
 _tistory: https://ky0422.tistory.com/10
 archive: true

@@ -3,7 +3,7 @@ title: constant (상수)와 const fn
 description: const keyword, const fn, and miri
 author: ky0422
 date: 2022-09-27 18:22:00 +0900
-categories: ["프로그래밍", "Rust"]
+categories: ["C. 프로그래밍", "Rust"]
 tags: ["Rust", "러스트", "상수", "constant", "const fn", "miri"]
 _tistory: https://ky0422.tistory.com/5
 archive: true

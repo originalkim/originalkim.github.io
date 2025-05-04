@@ -3,7 +3,7 @@ title: ?Trait 바운드와 marker 타입
 description: ?Trait bounds and marker types
 author: ky0422
 date: 2022-09-28 20:53:00 +0900
-categories: ["프로그래밍", "Rust"]
+categories: ["C. 프로그래밍", "Rust"]
 tags: ["Rust", "러스트", "Trait", "트레잇", "marker types"]
 _tistory: https://ky0422.tistory.com/8
 archive: true

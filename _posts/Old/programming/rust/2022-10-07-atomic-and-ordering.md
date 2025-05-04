@@ -3,7 +3,7 @@ title: atomic 타입과 Ordering 열거형
 description: atomic type and Ordering enum
 author: ky0422
 date: 2022-10-07 17:14:00 +0900
-categories: ["프로그래밍", "Rust"]
+categories: ["C. 프로그래밍", "Rust"]
 tags: ["Rust", "러스트", "atomic", "Ordering"]
 _tistory: https://ky0422.tistory.com/19
 archive: true

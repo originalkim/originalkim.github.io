@@ -3,7 +3,7 @@ title: 모나드 bind 함수 구현하기
 description: Implementing the monadic bind function.
 author: ky0422
 date: 2022-09-26 21:31:00 +0900
-categories: ["프로그래밍", "Rust"]
+categories: ["C. 프로그래밍", "Rust"]
 tags: ["Rust", "러스트", "모나드", "Monad", "bind", "구현"]
 _tistory: https://ky0422.tistory.com/4
 archive: true

@@ -3,7 +3,7 @@ title: "컴파일러 구조"
 description: "Compiler Phases"
 author: ky0422
 date: 2023-02-26 12:19:00 +0900
-categories: ["프로그래밍", "프로그래밍 언어론"]
+categories: ["C. 프로그래밍", "프로그래밍 언어론"]
 tags: ["컴파일러", "컴파일러 구조", "Compiler", "Compiler Phases", "프로그래밍 언어론"]
 _tistory: https://ky0422.tistory.com/44
 archive: true

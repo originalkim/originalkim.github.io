@@ -3,7 +3,7 @@ title: Pin과 Unpin
 description: Pin and Unpin
 author: ky0422
 date: 2022-09-27 22:48:00 +0900
-categories: ["프로그래밍", "Rust"]
+categories: ["C. 프로그래밍", "Rust"]
 tags: ["Rust", "러스트", "Pin", "Unpin"]
 _tistory: https://ky0422.tistory.com/7
 archive: true

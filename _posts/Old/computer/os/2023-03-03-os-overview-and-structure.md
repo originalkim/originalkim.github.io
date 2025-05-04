@@ -3,7 +3,7 @@ title: 운영체제 개요 & 구조
 description: Overview and structure of an operating system.
 author: ky0422
 date: 2023-03-03 22:37:00 +0900
-categories: ["컴퓨터", "운영체제론"]
+categories: ["B. 컴퓨터", "운영체제론"]
 tags: ["운영체제", "운영체제론", "OS"]
 _tistory: https://ky0422.tistory.com/48
 archive: true

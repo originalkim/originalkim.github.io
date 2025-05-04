@@ -3,7 +3,7 @@ title: Any 트레잇을 사용해서 JSON 비스무리한 매크로 만들기
 description: Making a JSON-like macro using the Any trait.
 author: ky0422
 date: 2022-10-02 19:54:00 +0900
-categories: ["프로그래밍", "Rust"]
+categories: ["C. 프로그래밍", "Rust"]
 tags: ["Rust", "러스트", "Any", "HashMap", "json", "매크로"]
 _tistory: https://ky0422.tistory.com/13
 archive: true

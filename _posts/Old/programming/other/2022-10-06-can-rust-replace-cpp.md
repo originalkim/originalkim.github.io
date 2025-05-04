@@ -3,7 +3,7 @@ title: Rust가 C++를 대체할 수 있을까? (C++ vs Rust)
 description: Can Rust replace C++? (C++ vs Rust)
 author: ky0422
 date: 2022-10-06 16:54:00 +0900
-categories: ["프로그래밍", "기타"]
+categories: ["C. 프로그래밍", "기타"]
 tags: ["Rust", "러스트", "C++"]
 _tistory: https://ky0422.tistory.com/18
 archive: true

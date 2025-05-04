@@ -3,7 +3,7 @@ title: "연결 리스트의 개념과 간단하게 직접 구현해보기"
 description: "Linked List concept and implementing it."
 author: ky0422
 date: 2023-03-23 18:30:00 +0900
-categories: ["프로그래밍", "Rust"]
+categories: ["C. 프로그래밍", "Rust"]
 tags: ["Rust", "러스트", "Linked List", "연결 리스트", "자료구조"]
 archive: true
 ---

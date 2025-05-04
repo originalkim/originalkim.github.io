@@ -3,7 +3,7 @@ title: 인터럽트
 description: What is interrupt?
 author: ky0422
 date: 2023-06-06 12:00:00 +0900
-categories: ["컴퓨터", "CPU"]
+categories: ["B. 컴퓨터", "CPU"]
 tags: ["컴퓨터", "CPU", "인터럽트"]
 archive: true
 ---

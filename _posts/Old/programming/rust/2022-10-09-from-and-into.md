@@ -3,7 +3,7 @@ title: From, TryFrom 트레잇 (Feat. Into, TryInto)
 description: From and TryFrom traits (Feat. Into and TryInto)
 author: ky0422
 date: 2022-10-09 22:25:00 +0900
-categories: ["프로그래밍", "Rust"]
+categories: ["C. 프로그래밍", "Rust"]
 tags: ["Rust", "러스트", "From", "TryFrom"]
 _tistory: https://ky0422.tistory.com/21
 archive: true

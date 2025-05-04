@@ -3,7 +3,7 @@ title: 절차적 매크로, syn, quote, Attribute 만들기
 description: Procedural Macro, syn, quote and Attribute
 author: ky0422
 date: 2022-10-08 22:23:00 +0900
-categories: ["프로그래밍", "Rust"]
+categories: ["C. 프로그래밍", "Rust"]
 tags: ["Rust", "러스트", "절차적 매크로", "매크로"]
 _tistory: https://ky0422.tistory.com/20
 archive: true

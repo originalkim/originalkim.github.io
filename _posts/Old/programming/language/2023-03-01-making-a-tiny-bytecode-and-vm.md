@@ -3,7 +3,7 @@ title: "단순한 바이트 코드, VM 만들어보기 (feat. 바이트 코드 �
 description: "Making a tiny bytecode and VM. (feat. Why use bytecode)"
 author: ky0422
 date: 2023-03-01 19:58:00 +0900
-categories: ["프로그래밍", "프로그래밍 언어론"]
+categories: ["C. 프로그래밍", "프로그래밍 언어론"]
 tags: ["바이트코드", "VM", "Bytecode", "Virtual Machine", "프로그래밍 언어론"]
 _tistory: https://ky0422.tistory.com/46
 archive: true
