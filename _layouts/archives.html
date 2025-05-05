@@ -27,7 +27,23 @@ layout: page
       <span class="date month small text-muted ms-1" data-ts="{{ ts }}" data-df="{{ df_dayjs_m }}">
         {{ post.date | date: df_strftime_m }}
       </span>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">
+        {% if post.archive %}
+            <span class="badge bg-warning text-dark me-1 mb-2">
+                {{ site.data.locales[lang].post.archive }}
+            </span>
+            {% endif %} {% if post.series %}
+            <span class="badge {{ post.series.color }} text-dark me-1">
+                {{ post.series.title }}
+            </span>
+            {%if post.series.ep %}
+            <span class="badge {{ post.series.ep_color }} text-dark me-1">
+                EP {{ post.series.ep }}
+            </span>
+            {% endif %}
+        {% endif %}
+      {{ post.title }}
+      </a>
     </li>
 
     {% if forloop.last %}</ul>{% endif %}

@@ -70,12 +70,13 @@ all_normal[i] %} {% endfor %} {% endif %}
               EP {{ post.series.ep }}
             </p>
             {% endif %} {% endif %}
-            <p>{{ post.title }}</p>
-          </h1>
+            <p>{% if post.fa_icon %}<i class="{{ post.fa_icon }} me-2"></i>{% endif %}{% if post.title_bold %}<b>{{ post.title }}</b>{% else %}{{ post.title }}{% endif %}</h1>
 
+        {% if post.description %}
           <div class="card-text content mt-0 mb-3">
-            <p>{% include post-description.html %}</p>
+                <p>{% include post-description.html %}</p>
           </div>
+        {% endif %}
 
           <div class="post-meta flex-grow-1 d-flex align-items-end">
             <div class="me-auto">

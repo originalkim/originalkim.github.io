@@ -28,7 +28,7 @@ script_includes:
         EP {{ page.series.ep }}
       </p>
       {% endif %} {% endif %}
-      <p>{{ page.title }}</p>
+      <p>{% if page.fa_icon %}<i class="{{ page.fa_icon }} me-3"></i>{% endif %}{{ page.title }}</p>
     </h1>
     {% if page.description %}
     <p class="post-desc fw-light mb-4">{{ page.description }}</p>

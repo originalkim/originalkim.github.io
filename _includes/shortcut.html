@@ -1,0 +1,26 @@
+<!-- Shortcuts Category/Series -->
+
+<section id="access-lastmod">
+    {% assign categories_url = "/categories/" | relative_url %}
+    <h2 class="panel-heading">
+        <i class="far fa-folder-open fa-fw me-2"></i>
+        <a href="{{ categories_url }}">{{- site.data.locales[include.lang].panel.shortcut -}}</a>
+    </h2>
+    <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+        {% for shortcut in site.shortcuts %}
+            {% assign url = shortcut.url | relative_url %}
+            <li class="text-truncate lh-lg">
+                <i class="fa-solid fa-list me-2"></i>
+                <a href="{{ url }}">{{ shortcut.title }}</a>
+            </li>
+
+            {% for sub in shortcut.sub %}
+                {% assign sub_url = sub.url | relative_url %}
+                <li class="text-truncate lh-lg">
+                    <i class="fa-solid fa-chevron-right ms-4 me-2"></i>
+                    <a href="{{ sub_url }}">{{ sub.title }}</a>
+                </li>
+            {% endfor %}
+        {% endfor %}
+    </ul>
+</section>
