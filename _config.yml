@@ -170,3 +170,18 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+shortcuts: 
+  - title: "A. 개념/용어 정리"
+    url: "/categories/a-개념-용어-정리/"
+    sub:
+      - title: "Computer Science"
+        url: "/categories/computer-science/"
+      - title: "네트워크"
+        url: "/categories/네트워크/"
+      - title: "클라우드/AWS"
+        url: "/categories/클라우드-aws/"
+  - title: "B. 컴퓨터"
+    url: "/categories/b-컴퓨터/"
+  - title: "C. 프로그래밍"
+    url: "/categories/c-프로그래밍/"
