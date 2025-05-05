@@ -54,6 +54,14 @@
         font-size: 1.25rem;
       }
 
+      .card-badges {
+        .badge {
+          font-size: 0.8rem;
+          padding: 0.25rem 0.5rem;
+          border-radius: v.$radius-sm;
+        }
+      }
+
       %muted {
         color: var(--text-muted-color) !important;
       }
