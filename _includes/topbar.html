@@ -9,12 +9,13 @@
       {% assign paths = page.url | split: '/' %} {% if paths.size == 0 or
       page.layout == 'home' %}
       <!-- index page -->
-      <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
+      <i class="fas fa-home fa-fw"></i>
+
 
       {% else %} {% for item in paths %} {% if forloop.first %}
       <span>
         <a href="{{ '/' | relative_url }}">
-          {{- site.data.locales[include.lang].tabs.home | capitalize -}}
+          <i class="fas fa-home fa-fw"></i>
         </a>
       </span>
 
