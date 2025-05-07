@@ -33,11 +33,11 @@ layout: page
                 {{ site.data.locales[lang].post.archive }}
             </span>
             {% endif %} {% if post.series %}
-            <span class="badge {{ post.series.color }} text-dark me-1">
+            <span class="badge {{ post.series.color }} notion-text me-1">
                 {{ post.series.title }}
             </span>
             {%if post.series.ep %}
-            <span class="badge {{ post.series.ep_color }} text-dark me-1">
+            <span class="badge {{ post.series.ep_color }} notion-text me-1">
                 EP {{ post.series.ep }}
             </span>
             {% endif %}

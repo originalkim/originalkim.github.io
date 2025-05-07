@@ -18,7 +18,7 @@ layout: page
       <li class="d-flex justify-content-between px-md-3">
         <a href="{{ post.url | relative_url }}" style="display: flex">
             {% if post.series.ep %}
-                <span class="badge {{ post.series.ep_color }} text-dark me-2">EP {{ post.series.ep }}</span>
+                <span class="badge {{ post.series.ep_color }} notion-text me-2">EP {{ post.series.ep }}</span>
             {% endif %}
             {{ post.title }}
         </a>

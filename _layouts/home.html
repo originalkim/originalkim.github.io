@@ -62,11 +62,11 @@ all_normal[i] %} {% endfor %} {% endif %}
               {{ site.data.locales[lang].post.archive }}
             </p>
             {% endif %} {% if post.series %}
-            <p class="badge {{ post.series.color }} text-dark me-1">
+            <p class="badge {{ post.series.color }} notion-text me-1">
               {{ post.series.title }}
             </p>
             {%if post.series.ep %}
-            <p class="badge {{ post.series.ep_color }} text-dark me-1">
+            <p class="badge {{ post.series.ep_color }} notion-text me-1">
               EP {{ post.series.ep }}
             </p>
             {% endif %}
