@@ -47,7 +47,7 @@ analytics:
 pageviews:
   provider: # now only supports 'goatcounter'
 
-theme_mode: light
+theme_mode: 
 cdn: "/"
 avatar: "/assets/img/profile.png"
 social_preview_image:
