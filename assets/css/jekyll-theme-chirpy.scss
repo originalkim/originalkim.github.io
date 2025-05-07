@@ -43,3 +43,18 @@
 .bg-notion-red {
   background-color: #fdebec;
 }
+
+.img-content-rounded {
+  border-radius: 0.5rem;
+}
+
+.img-content-shadow {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.img-content-animation {
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        transform: scale(1.005);
+    }
+}
