@@ -59,6 +59,12 @@ script_includes:
       <div class="d-flex justify-content-between">
         <!-- author(s) -->
         <div>
+          {% if page.finish %}
+            <span>
+                <i class="fas fa-check-circle text-success"></i>
+            </span>
+          {% endif %}
+
           <span>
             <!-- {{ site.data.locales[lang].post.posted }} --> {% include datetime.html date=page.date tooltip=true lang=lang %}
           </span>
