@@ -16,32 +16,35 @@
 /* colors by notion */
 /* https://www.notionavenue.co/post/notion-color-code-hex-palette */
 
+.notion-text {
+  color: var(--notion-text);
+}
 .bg-notion-grey {
-  background-color: #f1f1ef;
+  background-color: var(--notion-bg-grey);
 }
 .bg-notion-brown {
-  background-color: #f4eeee;
+  background-color: var(--notion-bg-brown);
 }
 .bg-notion-orange {
-  background-color: #faebdd;
+  background-color: var(--notion-bg-orange);
 }
 .bg-notion-yellow {
-  background-color: #fbf3db;
+  background-color: var(--notion-bg-yellow);
 }
 .bg-notion-green {
-  background-color: #edf3ec;
+  background-color: var(--notion-bg-green);
 }
 .bg-notion-blue {
-  background-color: #e7f3f8;
+  background-color: var(--notion-bg-blue);
 }
 .bg-notion-purple {
-  background-color: #f6f3f9;
+  background-color: var(--notion-bg-purple);
 }
 .bg-notion-pink {
-  background-color: #faf1f5;
+  background-color: var(--notion-bg-pink);
 }
 .bg-notion-red {
-  background-color: #fdebec;
+  background-color: var(--notion-bg-red);
 }
 
 .img-content-rounded {
@@ -49,12 +52,12 @@
 }
 
 .img-content-shadow {
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
 
 .img-content-animation {
-    transition: all 0.2s ease-in-out;
-    &:hover {
-        transform: scale(1.005);
-    }
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.005);
+  }
 }

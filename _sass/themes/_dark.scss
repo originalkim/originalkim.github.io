@@ -12,8 +12,8 @@
   --text-muted-highlight-color: #aeaeae;
   --heading-color: #cccccc;
   --label-color: #a7a7a7;
-  --blockquote-border-color: rgb(90, 90, 90);
-  --blockquote-text-color: #868686;
+  --blockquote-border-color: rgb(112, 112, 112);
+  --blockquote-text-color: #a9a9a9;
   --link-color: rgb(138, 180, 248);
   --link-underline-color: rgb(82, 108, 150);
   --button-bg: #1e1e1e;
@@ -300,4 +300,15 @@
   .highlight .ss {
     color: #90a959;
   }
+
+  --notion-text: #d0d0d0;
+  --notion-bg-grey: #454b4e;
+  --notion-bg-brown: #594a3a;
+  --notion-bg-orange: #594a3a;
+  --notion-bg-yellow: #59563b;
+  --notion-bg-green: #354c4b;
+  --notion-bg-blue: #364954;
+  --notion-bg-purple: #443f57;
+  --notion-bg-pink: #533b4c;
+  --notion-bg-red: #594141;
 }
