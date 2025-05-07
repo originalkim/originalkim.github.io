@@ -164,7 +164,7 @@
     {% endif %}
 
     <!-- combine -->
-    {% assign _img_content = _img_content | append: IMG_TAG | append: _left | append: _right %}
+    {% assign _img_content = _img_content | append: IMG_TAG | append: _left | append: ' class="img-content-rounded img-content-shadow img-content-animation" ' | append: _right %}
   {% endfor %}
 
   {% if _img_content %}
