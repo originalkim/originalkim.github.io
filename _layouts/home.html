@@ -58,7 +58,7 @@ all_normal[i] %} {% endfor %} {% endif %}
         <div class="card-body d-flex flex-column">
             <div class="card-badges">
             {% if post.archive %}
-            <p class="badge bg-warning text-dark me-1 mb-2">
+            <p class="badge archive-badge-color me-1 mb-2">
               {{ site.data.locales[lang].post.archive }}
             </p>
             {% endif %} {% if post.series %}

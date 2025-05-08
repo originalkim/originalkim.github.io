@@ -29,5 +29,8 @@
   },
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
-  }
+},
+"[liquid]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
 }

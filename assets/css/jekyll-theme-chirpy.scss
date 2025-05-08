@@ -55,6 +55,11 @@
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
 
+.archive-badge-color {
+  background-color: var(--archive-badge-color);
+  color: var(--notion-text);
+}
+
 .img-content-animation {
   transition: all 0.2s ease-in-out;
   &:hover {
