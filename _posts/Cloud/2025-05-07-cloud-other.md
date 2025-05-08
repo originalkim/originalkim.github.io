@@ -1,5 +1,5 @@
 ---
-title: "부록 모음"
+title: "클라우드: 부록 모음"
 description: "알아두면 좋은 것들 모음"
 fa_icon: fa-solid fa-cloud
 author: yulmwu
@@ -10,6 +10,7 @@ use_math: true
 series: 
     title: "클라우드/AWS 개념 정리"
     color: "bg-notion-yellow"
-    ep_color: "bg-notion-blue"
+    appendix: true
+    appendix_color: "bg-notion-blue"
 order: 1099
 ---
