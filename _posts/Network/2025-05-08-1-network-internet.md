@@ -9,7 +9,7 @@ tags: ["네트워크", "인터넷"]
 use_math: true
 next_post: 
     title: "LAN과 WAN"
-    path: "lan-wan"
+    path: "2-lan-wan"
 series: 
     title: "네트워크 개념 정리"
     color: "bg-notion-pink"

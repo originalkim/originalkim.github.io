@@ -9,10 +9,10 @@ tags: ["네트워크", "OSI 7계층", "TCP 4계층", "캡슐화", "역캡슐화"
 use_math: true
 previous_post: 
     title: "프로토콜과 네트워크 참조 모델"
-    path: "protocol-model"
+    path: "4-protocol-model"
 next_post: 
     title: "이더넷과 이더넷 프레임"
-    path: "ethernet"
+    path: "6-ethernet"
 series: 
     title: "네트워크 개념 정리"
     color: "bg-notion-pink"

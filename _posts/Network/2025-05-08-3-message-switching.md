@@ -9,10 +9,10 @@ tags: ["네트워크", "메세지 교환", "유니캐스트", "브로드캐스�
 use_math: true
 previous_post: 
     title: "LAN과 WAN"
-    path: "lan-wan"
+    path: "2-lan-wan"
 next_post: 
     title: "프로토콜과 네트워크 참조 모델"
-    path: "protocol-model"
+    path: "4-protocol-model"
 series: 
     title: "네트워크 개념 정리"
     color: "bg-notion-pink"

@@ -9,10 +9,10 @@ tags: ["네트워크", "프로토콜", "참조 모델"]
 use_math: true
 previous_post: 
     title: "메세지 교환 방식과 유니캐스트, 브로드캐스트"
-    path: "message-switching"
+    path: "3-message-switching"
 next_post: 
     title: "OSI 7계층과 TCP/IP 4계층, 캡슐화/역캡슐화"
-    path: "osi7layer-tcpip4layer"
+    path: "5-osi7layer-tcpip4layer"
 series: 
     title: "네트워크 개념 정리"
     color: "bg-notion-pink"

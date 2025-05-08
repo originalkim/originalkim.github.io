@@ -9,7 +9,7 @@ tags: ["네트워크", "네트워크 계층", "OSI 7계층"]
 use_math: true
 previous_post: 
     title: "네트워크 장비: 허브, 스위치"
-    path: "hub-switch"
+    path: "7-hub-switch"
 series: 
     title: "네트워크 개념 정리"
     color: "bg-notion-pink"
