@@ -20,6 +20,11 @@ layout: page
             {% if post.series.ep %}
                 <span class="badge {{ post.series.ep_color }} notion-text me-2">EP {{ post.series.ep }}</span>
             {% endif %}
+            {% if post.series.appendix %}
+                <span class="badge {{ post.series.appendix_color }} notion-text me-2">
+                    {{ site.data.locales[lang].post.appendix }}
+                </span>
+            {% endif %}
             {{ post.title }}
         </a>
         <span class="dash flex-grow-1"></span>

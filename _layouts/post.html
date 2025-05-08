@@ -23,11 +23,17 @@ script_includes:
       <p class="badge {{ page.series.color }} notion-text me-1">
         {{ page.series.title }}
       </p>
-      {%if page.series.ep %}
+      {% if page.series.ep %}
       <p class="badge {{ page.series.ep_color }} notion-text me-1">
         EP {{ page.series.ep }}
       </p>
-      {% endif %} {% endif %}
+      {% endif %} 
+      {% if page.series.appendix %}
+        <span class="badge {{ page.series.appendix_color }} notion-text me-1">
+            {{ site.data.locales[lang].post.appendix }}
+        </span>
+      {% endif %}
+      {% endif %}
       <p>{% if page.fa_icon %}<i class="{{ page.fa_icon }} me-3"></i>{% endif %}{{ page.title }}</p>
     </h1>
     {% if page.description %}

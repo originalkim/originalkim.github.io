@@ -64,6 +64,7 @@ post:
   archive: 아카이브
   relate_posts: 관련된 글
   share: 공유하기
+  appendix: 부록
   button:
     next: 다음 글
     previous: 이전 글

@@ -41,6 +41,11 @@ layout: page
                 EP {{ post.series.ep }}
             </span>
             {% endif %}
+            {% if post.series.appendix %}
+                <span class="badge {{ post.series.appendix_color }} notion-text me-1">
+                    {{ site.data.locales[lang].post.appendix }}
+                </span>
+            {% endif %}
         {% endif %}
       {{ post.title }}
       </a>
