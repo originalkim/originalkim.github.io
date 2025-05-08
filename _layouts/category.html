@@ -14,7 +14,16 @@ layout: page
 
   <ul class="content ps-0">
     {% assign sorted_posts = page.posts | sort: "order" %}
+    {% assign current_sub_category = '' %}
     {% for post in sorted_posts %}
+        {% assign post_sub_category = post.categories[1] %}
+        {% if post_sub_category != current_sub_category %}
+            <h3 class="ps-lg-2">
+            <i class="far fa-folder-open fa-fw text-muted"></i>
+            {{ post_sub_category }}
+            </h3>
+            {% assign current_sub_category = post_sub_category %}
+        {% endif %}
       <li class="d-flex justify-content-between px-md-3">
         <a href="{{ post.url | relative_url }}" style="display: flex">
             {% if post.series.ep %}
